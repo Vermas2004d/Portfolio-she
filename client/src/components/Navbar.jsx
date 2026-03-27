@@ -28,9 +28,9 @@ const Navbar = () => {
         <motion.div 
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
-          className="text-2xl font-bold text-white tracking-widest"
+          className="text-5xl font-bold text-center  text-white tracking-widest"
         >
-          TANVI<span className="text-neonPurple">.</span>
+         <span className="text-neonPurple text-center">  TANVI.</span>
         </motion.div>
 
         {/* Desktop Nav */}
