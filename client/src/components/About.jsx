@@ -33,7 +33,7 @@ const About = () => {
             <div className="absolute top-0 right-0 w-32 h-32 bg-neonPurple/10 rounded-full blur-3xl -mr-16 -mt-16 group-hover:scale-150 transition-transform duration-700"></div>
             
             <p className="text-xl md:text-2xl text-gray-300 leading-relaxed font-light">
-              "I am a <span className="text-white font-semibold">B.Tech CSE student</span> passionate about building intelligent <span className="text-neonBlue font-semibold">AI-powered systems</span> and scalable <span className="text-neonPurple font-semibold">full-stack applications</span>. I enjoy solving real-world problems using data-driven approaches and modern web technologies."
+              "I am a Tanvi Shreya <span className="text-white font-semibold">B.Tech CSE student</span> passionate about building intelligent <span className="text-neonBlue font-semibold">AI-powered systems</span> and scalable <span className="text-neonPurple font-semibold">full-stack applications</span>. I enjoy solving real-world problems using data-driven approaches and modern web technologies."
             </p>
             
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-12">

@@ -30,7 +30,8 @@ const Navbar = () => {
           animate={{ opacity: 1, x: 0 }}
           className="text-5xl font-bold text-center  text-white tracking-widest"
         >
-         <span className="text-neonPurple text-center">  TANVI.</span>
+         {/* <span className="text-neonPurple text-center">  TANVI.</span> */}
+         <p className='text-center'> Tanvi Shreya</p>
         </motion.div>
 
         {/* Desktop Nav */}
