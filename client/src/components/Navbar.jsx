@@ -31,7 +31,7 @@ const Navbar = () => {
           className="text-5xl font-bold text-center  text-white tracking-widest"
         >
          {/* <span className="text-neonPurple text-center">  TANVI.</span> */}
-         <p className='text-center'> Tanvi Shreya</p>
+         <div className='text-center '>Tanvi Shreya</div>
         </motion.div>
 
         {/* Desktop Nav */}

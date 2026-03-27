@@ -25,13 +25,13 @@ const Hero = () => {
             WELCOME TO MY WORLD
           </motion.p>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-            Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-neonPurple to-neonBlue">Tanvi Shreya</span>
+            Hi, <span className="text-transparent bg-clip-text bg-gradient-to-r from-neonPurple to-neonBlue">Tanvi Shreya</span>
           </h1>
           
           <div className="text-2xl md:text-4xl font-medium text-gray-300 h-20">
-            I am a{' '}
+            I am Tanvi Shreya 
             <span className="text-neonPurple font-bold">
-              <Typewriter
+              {/* <Typewriter
                 words={['Full Stack Developer', 'AI Enthusiast', 'Problem Solver']}
                 loop={0}
                 cursor
@@ -39,12 +39,24 @@ const Hero = () => {
                 typeSpeed={70}
                 deleteSpeed={50}
                 delaySpeed={1500}
-              />
+              /> */}
+            </span>
+            <br />
+            <span>
+                <Typewriter
+                words={['Full Stack Developer', 'AI Enthusiast', 'Problem Solver']}
+                loop={0}
+                cursor
+                cursorStyle="_"
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1500}
+                />
             </span>
           </div>
 
           <p className="text-gray-400 text-lg mb-10 max-w-lg">
-            Building intelligent AI-powered systems and scalable full-stack applications with a focus on real-world problem solving.
+             Building intelligent AI-powered systems and scalable full-stack applications with a focus on real-world problem solving.
           </p>
 
           <div className="flex flex-wrap gap-6">
