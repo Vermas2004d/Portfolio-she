@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { FiAward, FiCheckCircle, FiMaximize2, FiX } from 'react-icons/fi';
+import Img2  from "../assets/vector.png"
+import Img3 from "../assets/coursera.png"
+import Img1 from "../assets/Madras.png"
 
 const AchievementCard = ({ title, icon, index }) => (
   <motion.div
@@ -46,9 +49,9 @@ const Achievements = () => {
   ];
 
   const certificates = [
-    { title: 'BS Data Science', issuer: 'IIT Madras', img: 'https://images.unsplash.com/photo-1627555081292-15964823933c?auto=format&fit=crop&q=80&w=800' },
-    { title: 'MongoDB Vector Search', issuer: 'MongoDB University', img: 'https://images.unsplash.com/photo-1544383335-91756fa4bacc?auto=format&fit=crop&q=80&w=800' },
-    { title: 'Computer Communication', issuer: 'Coursera', img: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800' },
+    { title: 'BS Data Science', issuer: 'IIT Madras', img: Img1 },
+    { title: 'MongoDB Vector Search', issuer: 'MongoDB University', img: Img2 },
+    { title: 'Computer Communication', issuer: 'Coursera', img: Img3 },
   ];
 
   return (

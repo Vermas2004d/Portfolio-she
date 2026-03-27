@@ -66,8 +66,8 @@ const Contact = () => {
               
               <div className="flex gap-6 mt-10">
                 {[
-                  { icon: <FiGithub />, href: "https://github.com", label: "GitHub" },
-                  { icon: <FiLinkedin />, href: "https://linkedin.com", label: "LinkedIn" },
+                  { icon: <FiGithub />, href: "https://github.com/tan-she", label: "GitHub" },
+                  { icon: <FiLinkedin />, href: "https://www.linkedin.com/in/tanvi-s-5506401b9/", label: "LinkedIn" },
                 ].map((social) => (
                   <motion.a
                     key={social.label}

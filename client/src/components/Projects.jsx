@@ -38,12 +38,12 @@ const ProjectCard = ({ project, index }) => {
         </div>
 
         <div className="flex justify-between items-center mt-auto">
-          <a href="#" className="flex items-center gap-2 text-sm font-semibold text-white/70 hover:text-neonBlue transition-colors group/btn">
+          <a href={project.gitHubLink} className="flex items-center gap-2 text-sm font-semibold text-white/70 hover:text-neonBlue transition-colors group/btn">
             <FiGithub /> Source Code
           </a>
           <a href="#" className="p-2 rounded-full border border-white/10 hover:bg-neonBlue/20 hover:text-neonBlue transition-all">
             <FiExternalLink />
-          </a>
+          </a> 
         </div>
       </div>
     </motion.div>
@@ -57,18 +57,21 @@ const Projects = () => {
       description: 'A robust platform for real-time incident reporting, volunteer coordination, and relief management with automated alerts.',
       tech: ['React', 'Node.js', 'MongoDB', 'Socket.io', 'JWT'],
       icon: '🌊',
+      gitHubLink: 'https://github.com/tan-she/Disaster_Management_'
     },
     {
       title: 'Clean Earth Dashboard',
       description: 'Sustainability dashboard for waste management featuring AI-based classification and real-time carbon footprint tracking.',
       tech: ['PHP', 'MySQL', 'Tailwind CSS', 'JavaScript'],
       icon: '🌍',
+      gitHubLink: 'https://github.com/tan-she/Waste-Management'
     },
     {
       title: 'AI Performance Analyzer',
       description: 'System monitoring tool that uses predictive analytics to detect CPU/Memory bottlenecks and optimize OS performance.',
       tech: ['Python', 'Scikit-learn', 'NumPy', 'Matplotlib'],
       icon: '⚡',
+      gitHubLink: 'https://github.com/tan-she/AI-powered-performance-Analyzer-for-OS-Processes-'
     },
   ];
 
